@@ -20,7 +20,7 @@ export default function Header() {
   const image = session?.user.image.toString();
   const router = useRouter();
   return (
-    <div className="shadow-sm border-b sticky top-0 z-50 bg- ">
+    <div className="shadow-sm border-b sticky top-0 z-50 bg-white ">
       <div className="flex justify-between  bg-white max-w-6xl mx-5 lg:mx-auto">
         <div
           onClick={() => router.push("/")}
