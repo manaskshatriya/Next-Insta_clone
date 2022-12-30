@@ -8,10 +8,12 @@ export const authOptions = {
       clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
       synchronize: false,
-      secret: process.env.NEXT_PUBLIC_SECRET,
+    
     }),
     // ...add more providers here
+   
   ],
+  secret: process.env.NEXT_PUBLIC_SECRET,
   pages:{
     signIn: '/auth/signin',
   },
